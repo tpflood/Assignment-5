@@ -17,6 +17,51 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+#otherfiles
+*.pdb
+*.tlog
+*.idb
+*.ilk
+*.log
+*.ipch
+*.sdf
+*.vcxproj.filters
+*.opensdf
+
+#Solution User Options Keeps track of user-level customizations you have made Visual Studio, such as breakpoints
+*.suo 
+*.v12.suo
+
+
+# Executables
+*.exe
+*.out
+*.app
+
 # =========================
 # Operating System Files
 # =========================
