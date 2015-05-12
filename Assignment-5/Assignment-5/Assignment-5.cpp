@@ -9,9 +9,9 @@
 using namespace std;
 
 // Constants
-const int MAXROW = 20;
-const int MAXCOLUMN = 20;
-const int MAXGEN = 5;
+#define MAXROW 20
+#define MAXCOLUMN 20
+#define MAXGEN 5
 
 void DisplayFinalGrid(int Grid[MAXROW][MAXCOLUMN], int Gen);
 
