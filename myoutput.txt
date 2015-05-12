@@ -1,0 +1,289 @@
+
+  01234567890123456789
+ 0*  * *   *         *
+ 1      *       * *
+ 2    *  *   *  *** *
+ 3  *  *   **      * *
+ 4*  * *   *
+ 5  ** *         ***
+ 6     **   ** **  **
+ 7      * *     * *
+ 8 *   *  * *      *
+ 9   ** **
+10*        *         *
+11 *** * **     *  * *
+12    *** *
+13**     *  **  *****
+14  *        * * * * *
+15           * *    *
+16 **  *  *       *
+17     **
+18      *         * *
+19*  **  *
+(ORIGINAL GRID) GAME OF LIFE STATISTICS
+
+tim was here
+
+Total alive in row 10 = 3
+Total alive in col 10 = 4
+Total dead in row 16 = 15
+Total dead in col 1 = 16
+Total alive = 101
+Total dead = 299
+
+  01234567890123456789
+ 0
+ 1    ***       * **
+ 2     **   *   * * *
+ 3   * ** ***    ****
+ 4 * * **  **      **
+ 5  ** *    *   *****
+ 6    ****     **   *
+ 7      *   ** **** *
+ 8    **  **
+ 9    ******
+10 *   *            *
+11 *** * ***        *
+12*  ***  **    *
+13 *   ***  *** ** **
+14 *         * * *   *
+15 **           * ***
+16     **
+17     ***         *
+18    * **
+19
+
+The grid after 1 generations have passed.
+(GENERATION #1) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 3
+Total alive in col 10 = 6
+Total dead in row 16 = 18
+Total dead in col 1 = 14
+Total alive = 113
+Total dead = 287
+
+  01234567890123456789
+ 0     *
+ 1    * *         **
+ 2          *   *   *
+ 3  *     *  *   *   *
+ 4   *   **  *  *    *
+ 5  **   * **  ****  *
+ 6   **  *  ***     **
+ 7        *** ** * *
+ 8    *         **
+ 9       * *
+10 * *
+11** * * * *
+12*  *       * *** **
+13***  ********  ** *
+14**    *   ** *     *
+15 **           *****
+16     * *        * *
+17    *
+18       *
+19
+
+The grid after 2 generations have passed.
+(GENERATION #2) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 2
+Total alive in col 10 = 6
+Total dead in row 16 = 16
+Total dead in col 1 = 15
+Total alive = 99
+Total dead = 301
+
+  01234567890123456789
+ 0     *
+ 1     *           *
+ 2               ****
+ 3       *****  **  **
+ 4   *   *   ***  * **
+ 5  *   ** *   ***   *
+ 6  ***  *         ***
+ 7   **   *** ** ** *
+ 8          *  ****
+ 9
+10**  * *
+11** *          *
+12   * *     * *** **
+13  *  *****     ** **
+14     ** *    *     *
+15***   *       *** **
+16                * *
+17      *
+18
+19
+
+The grid after 3 generations have passed.
+(GENERATION #3) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 4
+Total alive in col 10 = 3
+Total dead in row 16 = 18
+Total dead in col 1 = 17
+Total alive = 97
+Total dead = 303
+
+  01234567890123456789
+ 0
+ 1                 **
+ 2        ***   **   *
+ 3       ***** **
+ 4           *    **
+ 5  * * **     ****
+ 6  * ****  * *    * *
+ 7  * *   ******    **
+ 8          ****  **
+ 9              **
+10***
+11** * *       ***
+12 * * * **    *   ***
+13        **  ** **  *
+14  *     **
+15 *   ***      *** **
+16 *              * **
+17
+18
+19
+
+The grid after 4 generations have passed.
+(GENERATION #4) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 3
+Total alive in col 10 = 5
+Total dead in row 16 = 16
+Total dead in col 1 = 15
+Total alive = 95
+Total dead = 305
+
+  01234567890123456789
+ 0
+ 1         *        *
+ 2       *   * ***  *
+ 3       *   **** *
+ 4      *  * *    **
+ 5    *  *   *****  *
+ 6 ** *     *    *** *
+ 7    * ***       *  *
+ 8               ****
+ 9 *         ******
+10* *          *
+11   *  *      **   *
+12**    ****       ***
+13  *         *** ** *
+14      *  *   *   ***
+15 **   ***      ** **
+16      *         * **
+17
+18
+19
+
+The grid after 5 generations have passed.
+(GENERATION #5) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 3
+Total alive in col 10 = 1
+Total dead in row 16 = 16
+Total dead in col 1 = 16
+Total alive = 95
+Total dead = 305
+
+  01234567890123456789
+ 0
+ 1              *
+ 2        * **   * *
+ 3      ***  *    *
+ 4      ***       **
+ 5   * *     ****   *
+ 6    * * *  ***   * *
+ 7   * * *           *
+ 8       *    **    *
+ 9 *          **
+10 **
+11* *   * *    **  ***
+12 **   ***   *  **  *
+13 *    *  *  *** *
+14 **   * *   **
+15     ** *      **
+16      *        ** **
+17
+18
+19
+
+The grid after 6 generations have passed.
+(GENERATION #6) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 2
+Total alive in col 10 = 1
+Total dead in row 16 = 15
+Total dead in col 1 = 15
+Total alive = 85
+Total dead = 315
+
+  01234567890123456789
+ 0
+ 1
+ 2        ****   **
+ 3      *   **   *
+ 4     *  *  * * ***
+ 5    **  *  *  * * *
+ 6   *  **   *  *    *
+ 7    ** **  *       *
+ 8      *     **
+ 9 **         **
+10* *         * *   *
+11*  *  * *    *******
+12* *  ** **  *   *  *
+13*    **  * *  * *
+14 **   * **  *   *
+15     **       ****
+16     ***       ***
+17
+18
+19
+
+The grid after 7 generations have passed.
+(GENERATION #7) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 5
+Total alive in col 10 = 2
+Total dead in row 16 = 14
+Total dead in col 1 = 18
+Total alive = 94
+Total dead = 306
+
+  01234567890123456789
+ 0
+ 1         **
+ 2         * *   **
+ 3       **        *
+ 4    **** * *     *
+ 5    **  * ** ** * *
+ 6   *      ***  *  **
+ 7    **  *  * *
+ 8     ***   * *
+ 9 **        *  *
+10* **        *   * **
+11* ** ** **  * * *  *
+12*   *   *** *      *
+13* *        ***  **
+14 *      ***  **
+15        *     *
+16     * *      *  *
+17      *         *
+18
+19
+
+The grid after 8 generations have passed.
+(GENERATION #8) GAME OF LIFE STATISTICS
+
+Total alive in row 10 = 7
+Total alive in col 10 = 5
+Total dead in row 16 = 16
+Total dead in col 1 = 18
+Total alive = 92
+Total dead = 308
+Press any key to continue . . .
