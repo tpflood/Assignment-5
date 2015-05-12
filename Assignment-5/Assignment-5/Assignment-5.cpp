@@ -13,8 +13,6 @@ const int MAXROW = 20;
 const int MAXCOLUMN = 20;
 const int MAXGEN = 5;
 
-void DisplayGrid(int Grid[MAXROW][MAXCOLUMN], bool OriginalGrid, int Gen);
-
 void DisplayFinalGrid(int Grid[MAXROW][MAXCOLUMN], int Gen);
 
 bool InitializeGridFromFile(int Grid[MAXROW][MAXCOLUMN]);
@@ -63,53 +61,6 @@ void main()
 	}
 	
 	system("PAUSE");
-}
-
-void DisplayGrid(int Grid[MAXROW][MAXCOLUMN], bool OriginalGrid, int Gen)
-{
-	int Row, Column;
-	int AliveInRow[MAXROW] = { 0 };
-	int AliveInColumn[MAXCOLUMN] = { 0 };
-	int TotalAlive = 0;
-
-	cout << endl << "  01234567890123456789" << endl;
-	for (Row = 0; Row < MAXROW; Row++)
-	{
-		std::cout << std::setw(2) << Row;
-		for (Column = 0; Column < MAXCOLUMN; Column++)
-		{
-			if (Grid[Row][Column])
-			{
-				cout << "*";
-				AliveInRow[Row]++;
-				AliveInColumn[Column]++;
-				TotalAlive++;
-			}
-			else
-			{
-				cout << " ";
-			}
-		}
-		cout << endl;
-	}
-
-	if (OriginalGrid)
-	{
-		cout << "(ORIGINAL GRID) ";
-	}
-	else
-	{
-		cout << endl << "The grid after " << (Gen + 1) << " generations have passed." << endl;
-		cout << "(GENERATION #" << (Gen + 1) << ") ";
-	}
-	cout << "GAME OF LIFE STATISTICS" << endl << endl;
-	cout << "Total alive in row 10 = " << AliveInRow[10] << endl;
-	cout << "Total alive in col 10 = " << AliveInColumn[10] << endl;
-	cout << "Total dead in row 16 = " << (MAXROW - AliveInRow[16]) << endl;
-	cout << "Total dead in col 1 = " << (MAXCOLUMN - AliveInColumn[1]) << endl;
-	cout << "Total alive = " << TotalAlive << endl;
-	cout << "Total dead = " << ((MAXROW * MAXCOLUMN) - TotalAlive) << endl;
-
 }
 
 void DisplayFinalGrid(int Grid[MAXROW][MAXCOLUMN], int Gen)
